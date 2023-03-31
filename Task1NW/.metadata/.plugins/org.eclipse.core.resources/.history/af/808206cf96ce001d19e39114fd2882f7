@@ -1,0 +1,54 @@
+package kodlama.io.SoftwareLanguage.dataAccess.concretes;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import kodlama.io.SoftwareLanguage.dataAccess.abstracts.LanguagesRepository;
+import kodlama.io.SoftwareLanguage.enities.SoftwareLanguages;
+
+public class InMemoryRepository implements LanguagesRepository {
+	private List<SoftwareLanguages> languages;
+	
+	public InMemoryRepository() {
+		languages=new ArrayList<SoftwareLanguages>();
+		languages.add(new SoftwareLanguages(1,"C"));
+		languages.add(new SoftwareLanguages(2,"C++"));
+		languages.add(new SoftwareLanguages(3,"C#"));
+		languages.add(new SoftwareLanguages(4,"Java"));
+		languages.add(new SoftwareLanguages(5,"Python"));
+
+		
+	}
+	
+
+	@Override
+	public List<SoftwareLanguages> getAll() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void create(SoftwareLanguages language) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void update(SoftwareLanguages language) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void delete(SoftwareLanguages language) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public SoftwareLanguages getById(int id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

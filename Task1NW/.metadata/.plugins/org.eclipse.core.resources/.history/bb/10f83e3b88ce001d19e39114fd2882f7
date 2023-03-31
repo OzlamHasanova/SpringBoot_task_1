@@ -1,0 +1,6 @@
+package kodlama.io.SoftwareLanguage.enities;
+
+public class SoftwareLanguages {
+	private int id;
+	private String name;
+}

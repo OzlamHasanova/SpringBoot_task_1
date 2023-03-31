@@ -1,0 +1,5 @@
+package kodlama.io.SoftwareLanguage.business.abstracts;
+
+public interface LanguageService {
+
+}

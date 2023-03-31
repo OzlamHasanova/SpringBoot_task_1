@@ -1,0 +1,5 @@
+package kodlama.io.SoftwareLanguage.business.concretes;
+
+public class LanguageManager {
+
+}
